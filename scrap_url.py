@@ -12,7 +12,7 @@ import random
 import re
 import urllib.parse
 
-# Read the CSV file
+# Read the CSV file from Kaggle
 df = pd.read_csv('Clothing_datasets.csv')
 
 
