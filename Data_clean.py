@@ -19,8 +19,7 @@ def clean_text(text):
     text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
     # Convert text to lowercase
     text = text.lower()
-    # Address inconsistencies or specific cleaning requirements
-    # Add your specific cleaning logic here if needed
+   
     return text
 
 # Apply cleaning to selected columns
