@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from Data_clean import clean_text
+from Data_clean import clean_text  #from data_clean.py
 
 # Load the preprocessed CSV file
 df = pd.read_csv('cleaned_dataset.csv')
